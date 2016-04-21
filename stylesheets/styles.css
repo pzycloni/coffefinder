@@ -1,0 +1,346 @@
+@import url("/stylesheets/fonts.css");
+@import url("/stylesheets/options.css");
+
+
+.title_sign {
+	display: block;
+	margin-left: 2%;
+	margin-top: 10%;
+	width: 100%;
+	font-size: 2.3em;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: #3D2515;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+
+.sign_in {
+	display: block;
+	position: relative;
+	width: 50%;
+	height: auto;
+	margin: 5% auto;
+}
+
+.logo_sign, .inp_block, .option_block {
+	display: block;
+}
+
+
+.logo_sign > img {
+	width: 50%;
+	margin-left: 28%;
+}
+
+.inp_block > input {
+	display: block;
+	width: 50%;
+	height: 35px;
+	margin-left: 25%;
+	margin-top: 1%;
+	outline: none;
+	border: 0;
+	font-size: 1.1em;
+	padding-left: 5%;
+	font-family: 'Lobster', cursive;
+	transition: .3s linear;
+	-moz-transition: .3s linear;
+	-webkit-transition: .3s linear;
+}
+
+.inp_block > input:first-child {
+	margin-top: 6%;
+}
+
+.inp_block > input.inp_submit {
+	width: 55%;
+	color: white;
+	background: #DDA86F; /*#ffcc99*/
+	margin-top: 4%;
+	padding-left: 0;
+	font-size: 1em;
+	font-family: 'Lobster', cursive;
+	cursor: pointer;
+}
+
+.option_block {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 4%;
+}
+
+.create_new_account, .remember_password {
+	display: inline-block;
+	position: relative;
+	font-size: 1.2em;
+	font-family: 'Bad Script', cursive;
+	color: #3a8bbb;
+	cursor: pointer;
+}
+
+.create_new_account > a, .remember_password > a {
+	color: #3a8bbb;
+	text-decoration: none;
+}
+
+.create_new_account > a:link, .remember_password > a:link {
+	color: #3a8bbb;
+	text-decoration: none;
+}
+
+.create_new_account > a:active, .remember_password > a:active {
+	color: #3a8bbb;
+	text-decoration: none;
+}
+
+.create_new_account > a:visited, .remember_password > a:visited {
+	color: #3a8bbb;
+	text-decoration: none;
+}
+
+.option_block > .create_new_account {
+	float: left;
+	margin-left: 25%;
+}
+
+.option_block > .remember_password {
+	float: right;
+	margin-right: 20%;
+}
+
+
+.wrapper {
+	height: 100%;
+	overflow: hidden;
+}
+
+.maincontent {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0%;
+	-webkit-transition: top 1s;
+	-moz-transition: top 1s;
+	transition: top 1s;
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.section-1 {
+	background: url(/img/polina-girl-coffee-cafe-full.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.section-2 {
+	background: url(/img/coffe-cup-tab.jpg) no-repeat;
+	background-size: 112%;
+}
+/*https://img3.goodfon.ru/original/1366x768/2/45/tablet-coffee-table-man.jpg*/
+
+.section-3 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-322470.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.header {
+	display: block;
+	position: absolute;
+	float: left;
+	width: 70%;
+	height: 80px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0px 0px 39px -13px rgba(0, 0, 0, .4);
+}
+
+.turn_block {
+	display: inline-block;
+	width: 17%;
+	height: 80px;
+	margin-left: 3%;
+	float: left;
+	text-align: center;
+	line-height: 80px;
+	font-size: 1.5em;
+	font-family: 'Lobster', cursive;
+	color: #3D2515;	
+}
+
+.up_border_content {
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	transition: .3s linear;
+	-moz-transition: .3s linear;
+	-webkit-transition: .3s linear;
+}
+
+.search_block {
+	display: inline-block;
+	width: 30%;
+	float: left;
+	position: relative;
+	height: 80px;
+	margin-left: 3%;
+}
+
+.search_block > input {
+	margin-left: 5%;
+	margin-top: 28px;
+	width: 90%;
+	height: 25px;
+	border-radius: 5px;
+	border: 0;
+	outline: none;
+	background: #F4F2F0;
+	padding-left: 10px;
+	color: rgba(0,0,0,.6);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about_block, .sign_block, .reg_block, .home_block {
+	display: inline-block;
+	width: 16%;
+	height: 80px;
+	float: left;
+	position: relative;
+	text-align: center;
+	line-height: 80px;
+	color: #BEAEA1;
+}
+
+.sign_block {
+	width: 8%;
+}
+
+.about_block > a, .sign_block > a, .reg_block > a, .home_block > a {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #BEAEA1;
+	text-decoration: none;
+	-webkit-transition: .4s all;
+	-moz-transition: .4s all;
+	transition: .4s all;
+}
+
+.about_block > a:hover, .home_block > a:hover, .sign_block > a:hover, .reg_block > a:hover {
+	padding-left: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.about_block > a:active, .sign_block > a:active, .reg_block > a:active, .home_block > a:hover {
+	color: #BEAEA1;
+	text-decoration: none;
+}
+
+.about_block > a:visited, .sign_block > a:visited, .reg_block > a:visited, .home_block > a:visited {
+	color: #BEAEA1;
+	text-decoration: none;
+}
+
+.home_text_block {
+	position: relative;
+	float: left;
+	margin: 20% auto;
+	width: 100%;
+}
+
+.home_text {
+	position: absolute;
+	float: left;
+	border: 1px solid white;
+	width: 40%;
+	height: 80px;
+	line-height: 80px;
+	margin: 0% auto;
+
+	-webkit-transition: .4s all;
+	-moz-transition: .4s all;
+	transition: .4s all;
+}
+
+.home_text > h3 {
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+}
+
+
+.block_title_cards {
+	float: left;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 4%;
+}
+
+.block_title_cards > .title_cards {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	color: #3D2515;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	border: 1px solid #3D2515;
+	width: 40%;
+}
+
+.block_cards {
+	display: block;
+	float: left;
+	position: relative;
+	margin: 7% auto;
+	width: 100%;
+	height: 55%;
+}
+
+.card {
+	width: 20%;
+	height: 100%;
+	background: white;
+	position: relative;
+	margin: 0 auto;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0 0 30px white;
+}
+
+.card-1 {
+	margin-left: 10%;
+}
+/*https://img3.goodfon.ru/original/1366x768/c/be/breakfast-croissant-eggs.jpg*/
+
+.card_img-1 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-135738.jpg) no-repeat;
+	background-size: 210%;
+	width: 70%;
+	height: 50%;
+	position: relative;
+	margin-left: 15%;
+	margin-top: 15%;
+	border-radius: 50%;
+}
+
+.card-2 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-180536.jpg) no-repeat;
+	background-size: 120%;
+	margin-left: 1%;
+}
+
+.card-3 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-257802.jpg) no-repeat;
+	background-size: 150%;
+	margin-left: 1%;
+}
+
+.card-4 {
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-306723.jpg) no-repeat;
+	background-size: 100%;
+	margin-left: 1%;
+}
