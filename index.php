@@ -49,17 +49,14 @@
 					<div class="title_cards">Поиск кофе доверьте профи</div>
 				</div>
 				<div class="block_cards">
-					<div class="card card-1">
-						<div class="card_img-1"></div>
-					</div>
-					<div class="card card-2">
-						<div class="card_img-2"></div>
-					</div>
-					<div class="card card-3">
-						<div class="card_img-3"></div>
-					</div>
-					<div class="card card-4">
-						<div class="card_img-4"></div>
+					<div class="card card-1"></div>
+					<div class="card card-2"></div>
+					<div class="card card-3"></div>
+					<div class="card card-4"></div>
+				</div>
+				<div class="block_card_bottom">
+					<div class="card_bottom_text">
+						Специально для ценителей кофе, Coffee Finder проводит кропотливую работу, чтобы наши гости могли найти вкусную чашечку кофе. Создатели Coffee Finder не раз ездили по городу в поисках наилучшего кофе. 
 					</div>
 				</div>
 			</section>
