@@ -442,9 +442,27 @@
 	background: #672326;
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 600px){
+	.search_block {
+		width: 15%;
+	}
+
+	a {
+		margin-left: 5%;
+	}
+
+	.reg_block {
+		margin-left: 10%;
+	}
+
+	.home_block, .about_block, .sign_block {
+		margin-left: 3%;
+	}
+}
+
+@media only screen and (max-width: 1024px){
 	.home_text {
-		margin-top: 20%;
+		margin-top: 10%;
 	}
 
 	.header {
