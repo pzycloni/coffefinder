@@ -21,7 +21,7 @@
 						</div>
 						<div class="up_border_content">
 							<div class="search_block">
-								<input type="text" class="inp_search" placeholder="Поиск"/>
+								<!--<input type="text" class="inp_search" placeholder="Поиск"/>-->
 							</div>
 							<div class="home_block">
 								<a href="#one" class="home">Домашняя</a>
@@ -30,7 +30,7 @@
 								<a href="#two" class="info">Информация</a>
 							</div>
 							<div class="reg_block">
-								<a href="#three" class="reg">Регистрация</a>
+								<a href="#three" class="reg">Карта</a>
 							</div>
 							<div class="sign_block">
 								<a href="/signin.php" class="sign">Вход</a>
@@ -40,27 +40,61 @@
 				</div>
 				<div class="home_text_block">
 					<div class="home_text">
-						<h3>Быстро. Вкусно. Интересно.</h3>
+						Быстро. Вкусно. Интересно.
 					</div>
 				</div>
 			</section>
 			<section class="page section-2" data-section="two">
+			<div class="block_section-2">
 				<div class="block_title_cards">
 					<div class="title_cards">Поиск кофе доверьте профи</div>
 				</div>
 				<div class="block_cards">
-					<div class="card card-1"></div>
-					<div class="card card-2"></div>
-					<div class="card card-3"></div>
-					<div class="card card-4"></div>
+					<div class="card card-1">
+						<img src="/img/wallhaven-135738.jpeg" alt="" class="card_img_1">
+					</div>
+					<div class="card card-2">
+						<img src="img/wallhaven-180536.jpeg" alt="" class="card_img_2">
+					</div>
+					<div class="card card-3">
+						<img src="img/wallhaven-257802.jpeg" alt="" class="card_img_3">
+					</div>
+					<div class="card card-4">
+						<img src="/img/wallhaven-306723.jpeg" alt="" class="card_img_4">
+					</div>
 				</div>
 				<div class="block_card_bottom">
 					<div class="card_bottom_text">
 						Специально для ценителей кофе, Coffee Finder проводит кропотливую работу, чтобы наши гости могли найти вкусную чашечку кофе. Создатели Coffee Finder не раз ездили по городу в поисках наилучшего кофе. 
 					</div>
 				</div>
+			</div>
 			</section>
-			<section class="page section-3" data-section="three"></section>
+			<section class="page section-3" data-section="three">
+				
+			</section>
+			<!--<section class="page section-4" data-section="four">
+				<div class="footer">
+					<div class="title_footer">
+						CoffeeFinder для Вас
+					</div>
+					<div class="content_footer">
+						
+					</div>
+					<div class="block_developer">
+						<div class="list_developer">
+							<div class="developer">Полтарак Алексей</div>
+							<div class="developer">Симонова Алена</div>
+							<div class="developer">Абаимов Андрей</div>
+							<div class="developer">Степанищева Анастасия</div>
+							<div class="developer">Ведерников Виктор</div>
+							<div class="developer">Архипов Кирилл</div>
+							<div class="developer">Ахмадулин Тимур</div>
+						</div>
+					</div>
+					<div class="footer_info"></div>
+				</div>
+			</section>-->
 		</div>
 	</div>
 </body>

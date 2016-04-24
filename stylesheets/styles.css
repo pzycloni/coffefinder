@@ -137,13 +137,17 @@
 }
 
 .section-2 {
-	background: url(/img/coffe-cup-tab.jpg) no-repeat;
 	background-size: 112%;
 }
 /*https://img3.goodfon.ru/original/1366x768/2/45/tablet-coffee-table-man.jpg*/
 
 .section-3 {
-	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-322470.jpg) no-repeat;
+	/*background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-322470.jpg) no-repeat;*/
+	background-size: 100%;
+}
+
+.section-4 {
+	/*background: url(/img/wallhaven-25138.jpg) no-repeat;*/
 	background-size: 100%;
 }
 
@@ -251,26 +255,34 @@
 }
 
 .home_text {
-	position: absolute;
+	position: relative;
 	float: left;
 	border: 1px solid white;
 	width: 40%;
-	height: 80px;
+	min-height: 80px;
+	height: auto;
 	line-height: 80px;
-	margin: 0% auto;
-}
+	margin-left: 30%;
 
-.home_text > h3 {
 	color: white;
 	text-align: center;
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
 }
 
+.home_text > h3 {
+
+}
+
+.block_section-2 {
+	margin: 2% auto;
+}
+
 .block_title_cards {
 	float: left;
 	width: 100%;
-	height: 80px;
+	min-height: 80px;
+	height: auto;
 	line-height: 80px;
 	margin-top: 4%;
 }
@@ -292,7 +304,7 @@
 	position: relative;
 	margin: 7% auto;
 	width: 100%;
-	height: 40%;
+	height: auto;
 }
 
 .card {
@@ -307,36 +319,41 @@
 	transition: .5s all;
 }
 
+.card > img {
+	width: 100%;
+	border-radius: 5px;
+}
+
 
 .card-1 {
-	margin-left: 10%;
-	background: url(/img/wallhaven-135738.jpg) no-repeat;
-	background-size: 180%;
+	margin-left: 8%;
+	/*background: url(/img/wallhaven-135738.jpeg) no-repeat;*/
+	background-size: 100%;
 }
 /*https://img3.goodfon.ru/original/1366x768/c/be/breakfast-croissant-eggs.jpg*/
 
 
 .card-2 {
-	background: url(/img/wallhaven-180536.jpg) no-repeat;
-	background-size: 150%;
+	/*background: url(/img/wallhaven-180536.jpeg) no-repeat;*/
+	background-size: 100%;
 	margin-left: 1%;
 }
 
 .card-3 {
-	background: url(/img/wallhaven-257802.jpg) no-repeat;
-	background-size: 180%;
+	/*background: url(/img/wallhaven-257802.jpeg) no-repeat;*/
+	background-size: 100%;
 	margin-left: 1%;
 }
 
 .card-4 {
-	background: url(/img/wallhaven-306723.jpg) no-repeat;
-	background-size: 120%;
+	/*background: url(/img/wallhaven-306723.jpeg) no-repeat;*/
+	background-size: 100%;
 	margin-left: 1%;
 }
 
 .block_card_bottom {
 	width: 100%;
-	height: 10%;
+	height: auto;
 	float: left;
 	margin-top: -4%;
 }
@@ -349,3 +366,73 @@
 	text-align: center;
 	color: #3D2515;
 }
+
+.footer {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.title_footer {
+	display: block;
+	float: left;
+	margin-top: 5%;
+	width: 100%;
+	font-size: 2.3em;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: #3D2515;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+
+.content_footer {
+	border: 1px solid black;
+	width: 100%;
+	height: 40%;
+	float: left;
+	position: relative;
+	display: block;
+}
+
+.block_developer {
+	border: 1px solid red;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 15%;
+	float: left;
+	background: #274265;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+.list_developer {
+	position: absolute;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.developer {
+	display: inline-block;
+	margin-left: 2%;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.developer:first-child{
+	margin-left: 10%;
+	margin-left: 0;
+}
+
+.footer_info {
+	border: 1px solid black;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 30%;
+	float: left;
+	background: #672326;
+}
+
