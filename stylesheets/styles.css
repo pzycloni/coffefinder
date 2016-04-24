@@ -132,8 +132,14 @@
 }
 
 .section-1 {
-	background: url(/img/polina-girl-coffee-cafe-full.jpg) no-repeat;
+	/*background: url(/img/polina-girl-coffee-cafe-full.jpg) no-repeat;*/
 	background-size: 100%;
+}
+
+.section-1 > img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 .section-2 {
@@ -436,3 +442,20 @@
 	background: #672326;
 }
 
+@media only screen and (max-width: 720px){
+	.home_text {
+		margin-top: 20%;
+	}
+
+	.header {
+		width: 100%;
+	}
+	
+	.home {
+		margin-left: -36%;
+	}
+
+	.turn_block > h4 {
+		font-size: .8em;
+	}
+}

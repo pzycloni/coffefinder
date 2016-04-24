@@ -6,6 +6,7 @@
 	
 	<!-- include css files -->
 	<link rel="stylesheet" href="/stylesheets/styles.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="/jsscripts/style.js"></script>
 	<script src="/jsscripts/jquery-mousewheel-master/jquery.mousewheel.js"></script>
@@ -14,6 +15,7 @@
 	<div class="wrapper">
 		<div class="maincontent">
 			<section class="page section-1" data-section="one">
+			<img src="/img/polina-girl-coffee-cafe-full.jpg" alt="" class="img_section-1">
 				<div class="header">
 					<div class="up_border">
 						<div class="turn_block">
