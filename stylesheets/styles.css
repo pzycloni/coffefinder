@@ -213,7 +213,7 @@
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.about_block, .sign_block, .reg_block, .home_block {
+.about_block, .team_block, .map_block, .home_block {
 	display: inline-block;
 	width: 16%;
 	height: 80px;
@@ -224,11 +224,11 @@
 	color: #BEAEA1;
 }
 
-.sign_block {
+.team_block {
 	width: 8%;
 }
 
-.about_block > a, .sign_block > a, .reg_block > a, .home_block > a {
+.about_block > a, .team_block > a, .map_block > a, .home_block > a {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #BEAEA1;
 	text-decoration: none;
@@ -237,18 +237,18 @@
 	transition: .4s all;
 }
 
-.about_block > a:hover, .home_block > a:hover, .sign_block > a:hover, .reg_block > a:hover {
+.about_block > a:hover, .home_block > a:hover, .team_block > a:hover, .map_block > a:hover {
 	padding-left: 20px;
 	color: black;
 	text-decoration: none;
 }
 
-.about_block > a:active, .sign_block > a:active, .reg_block > a:active, .home_block > a:hover {
+.about_block > a:active, .team_block > a:active, .map_block > a:active, .home_block > a:hover {
 	color: #BEAEA1;
 	text-decoration: none;
 }
 
-.about_block > a:visited, .sign_block > a:visited, .reg_block > a:visited, .home_block > a:visited {
+.about_block > a:visited, .team_block > a:visited, .map_block > a:visited, .home_block > a:visited {
 	color: #BEAEA1;
 	text-decoration: none;
 }
@@ -444,18 +444,18 @@
 
 @media only screen and (max-width: 600px){
 	.search_block {
-		width: 15%;
+		width: 10%;
 	}
 
 	a {
 		margin-left: 5%;
 	}
 
-	.reg_block {
+	.map_block {
 		margin-left: 10%;
 	}
 
-	.home_block, .about_block, .sign_block {
+	.home_block, .about_block, .team_block {
 		margin-left: 3%;
 	}
 }

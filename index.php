@@ -31,11 +31,11 @@
 							<div class="about_block">
 								<a href="#two" class="info">Информация</a>
 							</div>
-							<div class="reg_block">
-								<a href="#three" class="reg">Карта</a>
+							<div class="map_block">
+								<a href="#three" class="map">Карта</a>
 							</div>
-							<div class="sign_block">
-								<a href="/signin.php" class="sign">Вход</a>
+							<div class="team_block">
+								<a href="#four" class="team">Команда</a>
 							</div>
 						</div>
 					</div>
