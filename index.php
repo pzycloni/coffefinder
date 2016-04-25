@@ -14,32 +14,32 @@
 <body>
 	<div class="wrapper">
 		<div class="maincontent">
-			<section class="page section-1" data-section="one">
-			<img src="/img/polina-girl-coffee-cafe-full.jpg" alt="" class="img_section-1">
-				<div class="header">
-					<div class="up_border">
-						<div class="turn_block">
-							<h4>Coffeefinder.ru</h4>
-						</div>
-						<div class="up_border_content">
-							<div class="search_block">
+			<div class="header">
+				<div class="up_border">
+					<div class="turn_block">
+						<h4>Coffeefinder.ru</h4>
+					</div>
+					<div class="up_border_content">
+						<div class="search_block">
 								<!--<input type="text" class="inp_search" placeholder="Поиск"/>-->
-							</div>
-							<div class="home_block">
-								<a href="#one" class="home">Домашняя</a>
-							</div>
-							<div class="about_block">
-								<a href="#two" class="info">Информация</a>
-							</div>
-							<div class="map_block">
-								<a href="#three" class="map">Карта</a>
-							</div>
-							<div class="team_block">
-								<a href="#four" class="team">Команда</a>
-							</div>
+						</div>
+						<div class="home_block">
+							<a href="#one" class="home">Домашняя</a>
+						</div>
+						<div class="about_block">
+							<a href="#two" class="info">Информация</a>
+						</div>
+						<div class="map_block">
+							<a href="#three" class="map">Карта</a>
+						</div>
+						<div class="team_block">
+							<a href="#four" class="team">Команда</a>
 						</div>
 					</div>
 				</div>
+			</div>
+			<section class="page section-1" data-section="one">
+			<img src="/img/polina-girl-coffee-cafe-full.jpg" alt="" class="img_section-1">
 				<div class="home_text_block">
 					<div class="home_text">
 						Быстро. Вкусно. Интересно.

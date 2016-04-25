@@ -19,18 +19,30 @@
                 inscroll = true;
                 if (event.deltaY > 0) {
 
-                    if (activePage.prev().length) {
+                    if (activePage.prev().length  && screen > 0) {
                         screen--;
                     }
+
                 } else {
 
                     if (activePage.next().length) {
-                        screen++;
-                    }
+                        screen++; 
+                    }        
                 }
+
+                if (screen == 0){
+                    $('.header').css({'height': '80px'});
+                    $('.turn_block').css({'height': '80px', 'line-height': '80px'});
+                    $('.up_border_content > div').css({'height': '80px', 'line-height': '80px'});
+
+                } else {
+                    $('.header').css({'height': '40px'});
+                    $('.turn_block').css({'height': '40px', 'line-height': '40px'});
+                    $('.up_border_content > div').css({'height': '40px', 'line-height': '40px'});
+                }
+                console.log(screen);
                 
             }
-
 
             var 
                 position = (-screen * 100) + '%';
