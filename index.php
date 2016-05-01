@@ -23,22 +23,19 @@
 						<div class="search_block">
 								<!--<input type="text" class="inp_search" placeholder="Поиск"/>-->
 						</div>
-						<div class="home_block">
-							<a href="#one" class="home">Домашняя</a>
+						<div class="home_block nav thisPageActive">
+							<a href="#one" class="home nav_item">Домашняя</a>
 						</div>
-						<div class="about_block">
-							<a href="#two" class="info">Информация</a>
+						<div class="about_block nav">
+							<a href="#two" class="info nav_item">Информация</a>
 						</div>
-						<div class="map_block">
-							<a href="#three" class="map">Карта</a>
-						</div>
-						<div class="team_block">
-							<a href="#four" class="team">Команда</a>
+						<div class="map_block nav">
+							<a href="#three" class="map nav_item">Карта</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<section class="page section-1" data-section="one">
+			<section class="page section-1 active" data-section="one">
 			<img src="/img/polina-girl-coffee-cafe-full.jpg" alt="" class="img_section-1">
 				<div class="home_text_block">
 					<div class="home_text">
@@ -73,30 +70,19 @@
 			</div>
 			</section>
 			<section class="page section-3" data-section="three">
-				
-			</section>
-			<!--<section class="page section-4" data-section="four">
-				<div class="footer">
-					<div class="title_footer">
-						CoffeeFinder для Вас
-					</div>
-					<div class="content_footer">
-						
-					</div>
-					<div class="block_developer">
-						<div class="list_developer">
-							<div class="developer">Полтарак Алексей</div>
-							<div class="developer">Симонова Алена</div>
-							<div class="developer">Абаимов Андрей</div>
-							<div class="developer">Степанищева Анастасия</div>
-							<div class="developer">Ведерников Виктор</div>
-							<div class="developer">Архипов Кирилл</div>
-							<div class="developer">Ахмадулин Тимур</div>
+				<div class="block_menu">
+					<div class="menu">
+						<div class="block_search">
+							<input type="text" class="search" placeholder="Поиск...">
+						</div>
+						<div class="block_result">
+							<ul>
+								<li class="finded">В данный момент ничего не найдено!</li>
+							</ul>
 						</div>
 					</div>
-					<div class="footer_info"></div>
 				</div>
-			</section>-->
+			</section>
 		</div>
 	</div>
 </body>
