@@ -567,3 +567,15 @@ ul > li {
 	font-family: 'Roboto Condensed', sans-serif;
 	display: block;
 }
+
+.block_map {
+	display: inline-block;
+	border: 1px solid grey;
+	float: right;
+	width: 70%;
+	height: auto;
+	margin-top: 3%;
+	margin-right: 3%;
+	max-height: 600px;
+	min-height: 500px;
+}

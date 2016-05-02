@@ -82,6 +82,9 @@
 						</div>
 					</div>
 				</div>
+				<div class="block_map">
+					
+				</div>
 			</section>
 		</div>
 	</div>
