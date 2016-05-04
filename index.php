@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="/stylesheets/styles.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	<script src="/jsscripts/style.js"></script>
 	<script src="/jsscripts/jquery-mousewheel-master/jquery.mousewheel.js"></script>
 </head>
@@ -82,7 +83,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="block_map">
+				<div class="block_map" id="coffie_map">
 					
 				</div>
 			</section>

@@ -2,6 +2,9 @@
 
     $(function(){
 
+        ymaps.ready(init);
+        var myMap;
+
         $('.nav_item').click(function(e) {
             e.preventDefault();
            // showSection($(this).attr('href'), true);
@@ -102,6 +105,14 @@
             } else {
                 $('body, html').scrollTop(reqSectionPos);
             }
+    }
+
+    function init(){
+        myMap = new ymaps.Map("coffie_map", {
+            center: [55.16, 61.40],
+            zoom: 12,
+            controls:["zoomControl", "fullscreenControl","geolocationControl"]
+        });
     }
 	
 })();
