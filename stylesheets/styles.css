@@ -117,7 +117,7 @@
 
 .wrapper {
 	height: 100%;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .maincontent {
@@ -143,7 +143,6 @@
 
 .section-1 > img {
 	width: 100%;
-	height: 100%;
 	position: absolute;
 }
 
@@ -168,7 +167,8 @@
 	float: left;
 	width: 70%;
 	height: 80px;
-	margin: 0 auto;
+	margin: 0 15%;
+	margin-right: 15%;
 	background: #fff;
 	box-shadow: 0px 0px 39px -13px rgba(0, 0, 0, .4);
 
@@ -193,6 +193,15 @@
 	transition: .7s linear;
 	-moz-transition: .7s linear;
 	-webkit-transition: .7s linear;
+}
+
+.turn_block > h4 {
+	line-height: 80px;
+	margin: 0;
+
+	transition: .3s linear;
+	-moz-transition: .3s linear;
+	-webkit-transition: .3s linear;
 }
 
 .up_border_content {
@@ -465,42 +474,6 @@
 	background: #672326;
 }
 
-@media only screen and (max-width: 600px){
-	.search_block {
-		width: 10%;
-	}
-
-	a {
-		margin-left: 5%;
-	}
-
-	.map_block {
-		margin-left: 10%;
-	}
-
-	.home_block, .about_block, .team_block {
-		margin-left: 3%;
-	}
-}
-
-@media only screen and (max-width: 1024px){
-	.home_text {
-		margin-top: 10%;
-	}
-
-	.header {
-		width: 100%;
-	}
-	
-	.home {
-		margin-left: -36%;
-	}
-
-	.turn_block > h4 {
-		font-size: .8em;
-	}
-}
-
 .block_menu {
 	display: inline-block;
 	float: left;
@@ -571,11 +544,69 @@ ul > li {
 .block_map {
 	display: inline-block;
 	border: 1px solid grey;
-	float: right;
-	width: 70%;
+	float: left;
+	width: 86%;
 	height: auto;
 	margin-top: 3%;
-	margin-right: 3%;
-	max-height: 600px;
+	margin-left: 7%;
+	max-height: 700px;
 	min-height: 500px;
+}
+
+@media only screen and (max-width: 600px){
+	.search_block {
+		width: 10%;
+	}
+
+	a {
+		margin-left: 5%;
+	}
+
+	.map_block {
+		margin-left: 10%;
+	}
+
+	.home_block, .about_block, .team_block {
+		margin-left: 3%;
+	}
+
+	.section-1 > img {
+		content: url('/img/cup-600.jpeg');
+	}
+
+	.home_text {
+		color: white;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.home_text {
+		margin-top: 10%;
+	}
+
+	.header {
+		width: 100%;
+		margin: 0;
+	}
+	
+	.home {
+		margin-left: -36%;
+	}
+
+	.turn_block > h4 {
+		font-size: .8em;
+	}
+
+	.section-1 > img {
+		content: url('/img/cup-1024.jpeg');
+	}
+
+	.home_text {
+		border: 0;
+		color: #3D2515;
+	}
+
+	.title_cards {
+		border: 0 !important;
+	}
 }

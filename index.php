@@ -9,8 +9,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	<script src="/jsscripts/style.js"></script>
-	<script src="/jsscripts/jquery-mousewheel-master/jquery.mousewheel.js"></script>
+	<script src="/jsscripts/navigation.js"></script>
+	<script src="/jsscripts/ymaps.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -25,26 +25,26 @@
 								<!--<input type="text" class="inp_search" placeholder="Поиск"/>-->
 						</div>
 						<div class="home_block nav thisPageActive">
-							<a href="#one" class="home nav_item">Домашняя</a>
+							<a href="#home" class="home nav_item">Домашняя</a>
 						</div>
 						<div class="about_block nav">
-							<a href="#two" class="info nav_item">Информация</a>
+							<a href="#info" class="info nav_item">Информация</a>
 						</div>
 						<div class="map_block nav">
-							<a href="#three" class="map nav_item">Карта</a>
+							<a href="#map" class="map nav_item">Карта</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<section class="page section-1 active" data-section="one">
-			<img src="/img/polina-girl-coffee-cafe-full.jpg" alt="" class="img_section-1">
+			<section class="page section-1 active" data-section="home">
+				<img src="/img/polina-girl-coffee-cafe-full.jpg" alt="" class="img_section-1">
 				<div class="home_text_block">
 					<div class="home_text">
 						Быстро. Вкусно. Интересно.
 					</div>
 				</div>
 			</section>
-			<section class="page section-2" data-section="two">
+			<section class="page section-2" data-section="info">
 			<div class="block_section-2">
 				<div class="block_title_cards">
 					<div class="title_cards">Поиск кофе доверьте профи</div>
@@ -70,19 +70,7 @@
 				</div>
 			</div>
 			</section>
-			<section class="page section-3" data-section="three">
-				<div class="block_menu">
-					<div class="menu">
-						<div class="block_search">
-							<input type="text" class="search" placeholder="Поиск...">
-						</div>
-						<div class="block_result">
-							<ul>
-								<li class="finded">В данный момент ничего не найдено!</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+			<section class="page section-3" data-section="map">
 				<div class="block_map" id="coffie_map">
 					
 				</div>
