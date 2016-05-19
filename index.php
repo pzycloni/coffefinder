@@ -47,13 +47,13 @@
 				<div class="collapse navbar-collapse" id="navbar-open">
 					<ul class="nav navbar-nav navbar-center navbar-uppercase">
 						<li class="thisPageActive nav-block">
-							<a href="#home" class="home nav-item">Домашняя</a>
+							<a href="#home" class="home nav-item"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Домашняя</a>
 						</li>
 						<li class="nav-block">
-							<a href="#info" class="info nav-item">Информация</a>
+							<a href="#info" class="info nav-item"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Информация</a>
 						</li>
 						<li class="nav-block">
-							<a href="#map" class="map nav-item">Карта</a>
+							<a href="#map" class="map nav-item"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"> Карта</a>
 						</li>
 					</ul>
 				</div>
@@ -106,6 +106,23 @@
 					</div>
 				</div>
 			</section>
+		</div>
+	</div>
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<p class="text-center footer-head">Наша команда</p>
+				<div class="row">
+					<div class="col-md-1 col-md-offset-2 developer">Алена Симонова</div>
+					<div class="col-md-1 developer">Тимур Ахмадулин</div>
+					<div class="col-md-1 developer">Алексей Полтарак</div>
+					<div class="col-md-1 developer">Андрей Абаимов</div>
+					<div class="col-md-1 developer">Кирилл Архипов</div>
+					<div class="col-md-1 developer">Виктор Ведерников</div>
+					<div class="col-md-1 developer">Анастасия Степанищева</div>
+				</div>
+				<p class="text-center footer-title">ЧелГУ 2016</p>
+			</div>
 		</div>
 	</div>
 </body>
